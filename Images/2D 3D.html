@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*translate*/
+.con{
+    width: 200px;
+    height: 200px;
+    transform: translate(20px 20px);
+}
+    /*rotate*/
+.container{
+    width: 200px;
+    height: 200px;
+    transform: rotate(30deg);
+    }
+    /*scale*/
+    .bik{
+        margin: 50px;
+        width: 200px;
+        height: 100px;
+        transform: scale(2,2);
+    }
+    /*scalex*/
+    .bird{
+        width: 100px;
+        height: 100px;
+        transform: scaleX(1);
+    }
+    /*scaley*/
+    .ras{
+        width: 100px;
+        height: 100px;
+        transform: scaleY(1);
+    }
+    /*skew*/
+    .sneha{
+        width: 100px;
+        height: 100px;
+        transform:skew(20deg,20deg);
+    }
+    /*skewx*/
+    .vijay{
+        width: 100px;
+        height: 100px;
+        transform:skewX(30deg);
+    }
+    /*skewy*/
+    .surya{
+        width: 100px;
+        height: 100px;
+        transform:skewY(40deg) ;
+    }
+    /*matrix*/
+    .sk{
+        width: 100px;
+        height: 100px;
+        transform: matrix(3, -0.5, 0, 3, 0, 1);
+    }
+   /*rotatex*/
+     #flower{
+        width: 200px;
+        height: 200px;
+        transform: rotateX(190deg);
+     }
+     /*rotatey*/
+     #ice{
+        width: 200px;
+        height: 200px;
+        transform: rotateY(300deg);
+     }
+     /*rotatez*/
+     #juice{
+        width: 200px;
+        height:200px;
+        transform: rotateZ(200deg);
+    }
+
+</style>
+<body>
+    <center>
+        <h1>translate</h1>
+    <div class="con">
+        <img src="./cat.jpg">
+        </div>
+        <hr>
+        <h1>rotate</h1>
+        <div class="container">
+            <img src="./car.jpg">
+        </div>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <h1>scale</h1>
+       <div>
+        <img class="bik" src="./bik.jpg">
+       </div>
+       <hr>
+       <h1>scalex</h1>
+       <div>
+        <img  class="bird" src="./bird.jpg">
+       </div>
+       <hr>
+       <br>
+       <br>
+       <h1>scaley</h1>
+       <div>
+        <img class="ras" src="./ras.jpg">
+       </div>
+       <hr>
+       <br>
+       <br>
+       <h1>skew</h1>
+       <div>
+        <img class="sneha" src="./sneha.jpg">
+       </div>
+       <hr>
+       <br>
+       <br>
+       <h1>skewx</h1>
+       <div>
+        <img class="vijay" src="./vijay.jpg">
+       </div>
+       <hr>
+       <br>
+       <br>
+       <h1>skewy</h1>
+       <div>
+        <img class="surya" src="./surya.jpg">
+       </div>
+       <hr>
+       <br>
+       <br>
+       <h1>matrix</h1>
+       <div>
+        <img class="sk" src="./sk.jpg">
+       </div>
+       <hr>
+       <h1>rotatex</h1>
+       <div>
+        <img id="flower" src="./flower.jpg">
+    </div>
+    <hr>
+    <br>
+    <br>
+      <h1>rotatey</h1>
+    <div>
+      <img id="ice" src="./ice.jpg">
+    </div>
+    <hr>
+    <br>
+    <br>
+    <h1>rotatez</h1>
+    <div>
+        <img id="juice" src="./juice.jpg">
+    </div>
+    <hr>
+    <br>
+    <br>
+    
+    </center>
+</body>
+</html>

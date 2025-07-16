@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*animation*/
+    #cream{
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+        padding: 20px;
+        animation-name: cream;
+        animation-duration: 2s;
+    }
+    @keyframes cream{
+        from {border-color: red;}
+        to {border-color: yellow;}
+     }
+     #flow{
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+        padding: 20px;
+        animation-name: flow;
+        animation-duration: 4s;
+     }
+     @keyframes flow{
+        0% {border-color: blue;}
+        25% {border-color: blueviolet;}
+        50% {border-color: darkgreen;}
+        100%{border-color: indianred;}
+     }
+     /*animation delay*/
+     #dog{
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+        padding: 20px;
+        position: relative;
+        animation-name: dog;
+        animation-duration: 4s;
+        animation-delay: 2s;
+     }
+     @keyframes dog{
+        0% {border-color:maroon; left: 0px; top: 0px;}
+        25% {border-color: chartreuse; left: 100px; top: 0px;}
+        50%{border-color: red; left: 100px; top: 100px;}
+        75%{border-color: aqua; left: 0px; top: 100px;}
+     }
+     #bike{
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+        padding: 20px;
+        position: relative;
+        animation-name: bike;
+        animation-duration: 4s;
+        animation-iteration-count: 4;
+     }
+     @keyframes bike{
+        0% {border-color: chocolate;left: 0px; top: 0px;}
+        25% {border-color: deepskyblue; left: 200px; top: 0px;}
+        50% {border-color: indigo; left: 200px; top: 200px;}
+        75%{border-color: deeppink; left: 0px; top: 200px;}
+        100%{border-color: purple; left: 0px; top: 0px;}
+    }
+    #vijay{
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+        position: relative;
+        padding: 20px;
+        animation: vijay 3s linear 1s infinite reverse;
+    }
+    @keyframes vijay{
+        0% {border-color: chocolate;left: 0px; top: 0px;}
+        25% {border-color: deepskyblue; left: 200px; top: 0px;}
+        50% {border-color: indigo; left: 200px; top: 200px;}
+        75%{border-color: deeppink; left: 0px; top: 200px;}
+    }
+    /*alternate reverse*/
+    #juice{
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+        padding: 20px;
+        position: relative;
+        animation: juice 4s 3;
+        animation-direction: alternate-reverse;
+    }
+    @keyframes juice{
+        0%{border-color: darkslateblue; left: 0px; top: 0px;}
+        25%{border-color: darksalmon; left: 100px; top: 0px;}
+        50%{border-color: black; left: 100px; top: 100px;}
+        75%{border-color: darkgreen; left: 0px; top: 100px;}
+        100%{border-color: darkmagenta; left: 0px; top: 0px;}
+        }
+        /*reverse*/
+        #surya{
+            width: 200px;
+            height: 200px;
+            border: 1px solid;
+            padding: 20px;
+            position: relative;
+            animation: surya 4s;
+            animation-direction: reverse;
+        }
+        @keyframes surya{
+         0%{border-color: darkslateblue; left: 0px; top: 0px;}
+        25%{border-color: darksalmon; left: 100px; top: 0px;}
+        50%{border-color: black; left: 100px; top: 100px;}
+        75%{border-color: darkgreen; left: 0px; top: 100px;}
+        100%{border-color: darkmagenta; left: 0px; top: 0px;}
+        }
+
+
+    
+</style>
+<body>
+    <center>
+    <div>
+        <h1>animation</h1>
+        <img id="cream" src="./cream.jpg">
+    </div>
+    <hr>
+    <br>
+    <div>
+        <img id="flow" src="./flow.jpg">
+    </div>
+    <hr>
+    <br>
+    <div>
+        <h1>animation delay</h1>
+        <img id="dog" src="./dog.jpg">
+    </div>
+    <hr>
+    <br>
+    <div>
+        <h1>animation-iteration-count</h1>
+        <img id="bike" src="./bike.jpg">
+    </div>
+    <hr>
+    <br>
+    <div>
+        <h1>animation shortant</h1>
+        <img id="vijay" src="./vijay.jpg">
+    </div>
+    <hr>
+    <br>
+    <div>
+        <h1>alternate reverse</h1>
+        <img id="juice" src="./juice.jpg">
+    </div>
+    <hr>
+    <br>
+    <div>
+        <h1>reverse</h1>
+        <img id="surya" src="./surya.jpg">
+    </div>
+    </center>
+</body>
+</html>
